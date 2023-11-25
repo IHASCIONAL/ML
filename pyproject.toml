@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ml"
+version = "0.1.0"
+description = ""
+authors = ["Ismael <ismaelhenriqueeu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+pandas = "^2.1.3"
+numpy = "^1.26.2"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.0"
+sympy = "^1.12"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
